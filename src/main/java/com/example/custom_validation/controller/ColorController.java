@@ -1,10 +1,9 @@
 package com.example.custom_validation.controller;
+
 import com.example.custom_validation.model.Color;
 import jakarta.validation.Valid;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
 
 @RestController
 public class ColorController {
@@ -21,7 +20,6 @@ public class ColorController {
             colorObj.setColorCode("B100");
         }
         return colorObj;
-
     }
 }
 
