@@ -14,13 +14,9 @@ public class ColorValidator implements ConstraintValidator<ColorValidation, Stri
 
     @Override
     public boolean isValid(String colorName, ConstraintValidatorContext constraintValidatorContext) {
-        List<String> colorList = Arrays.asList("Red, Green");
-        if (colorList.contains(colorName)) {
-            return colorList.contains(colorName);
-        } else {
+        List<String> colorList = Arrays.asList("Red", "Green");
 
-            return false;
-        }
+        return colorList.contains(colorName);
 
     }
 }
