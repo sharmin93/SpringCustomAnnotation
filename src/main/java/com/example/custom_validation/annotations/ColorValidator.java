@@ -10,8 +10,6 @@ import java.util.List;
 
 public class ColorValidator implements ConstraintValidator<ColorValidation, String> {
     String message;
-
-
     @Override
     public boolean isValid(String colorName, ConstraintValidatorContext constraintValidatorContext) {
         List<String> colorList = Arrays.asList("Red", "Green");

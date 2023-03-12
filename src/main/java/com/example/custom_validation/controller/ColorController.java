@@ -15,13 +15,26 @@ public class ColorController {
         colorObj.setColorName(color.getColorName());
         if (colorObj.getColorName().equals("Red")) {
             colorObj.setColorCode("R100");
-        }else if (colorObj.getColorName().equals("Green")){
+        } else if (colorObj.getColorName().equals("Green")) {
             colorObj.setColorCode("G100");
-        }
-        else {
+        } else {
             colorObj.setColorCode("B100");
         }
         return colorObj;
+    }
+
+    @GetMapping("/hello")
+    public String hello() {
+        String str = "hello filter";
+        System.out.println(" " + str);
+        return str;
+    }
+
+    @GetMapping("/colorCheck")
+    public String colorCheck() {
+        String str = "Color check filter";
+        System.out.println(" " + str);
+        return str;
     }
 }
 
