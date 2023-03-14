@@ -1,0 +1,47 @@
+2023-03-14 12:23:39 INFO  ColorController:36 hello - hello hello filter
+2023-03-14 12:23:52 INFO  ColorController:43 colorCheck - color checkColor check filter
+2023-03-14 15:47:54 INFO  webSimpleFilter:20 doFilter - servletReqRequestsorg.apache.catalina.connector.RequestFacade@25fcc0af
+2023-03-14 15:47:54 INFO  webSimpleFilter:21 doFilter - servletResponseorg.apache.catalina.connector.ResponseFacade@11eae2ed
+2023-03-14 15:47:54 INFO  ColorController:43 colorCheck - color checkColor check filter
+2023-03-14 15:48:07 INFO  webSimpleFilter:20 doFilter - servletReqRequestsorg.apache.catalina.connector.RequestFacade@d9978b8
+2023-03-14 15:48:07 INFO  webSimpleFilter:21 doFilter - servletResponseorg.apache.catalina.connector.ResponseFacade@35e877b
+2023-03-14 15:48:07 INFO  ColorController:36 hello - hello hello filter
+2023-03-14 15:56:57 INFO  webSimpleFilter:38 doFilter - servletReqRequestsorg.apache.catalina.connector.RequestFacade@87d0795
+2023-03-14 15:56:57 INFO  webSimpleFilter:39 doFilter - servletResponseorg.apache.catalina.connector.ResponseFacade@3470a784
+2023-03-14 15:56:57 INFO  webSimpleFilter:40 doFilter - timeTue Mar 14 15:56:57 BDT 2023
+2023-03-14 15:56:57 INFO  ColorController:43 colorCheck - color checkColor check filter
+2023-03-14 15:57:31 INFO  webSimpleFilter:38 doFilter - servletReqRequestsorg.apache.catalina.connector.RequestFacade@1470debe
+2023-03-14 15:57:31 INFO  webSimpleFilter:39 doFilter - servletResponseorg.apache.catalina.connector.ResponseFacade@1ab72240
+2023-03-14 15:57:31 INFO  webSimpleFilter:40 doFilter - timeTue Mar 14 15:57:31 BDT 2023
+2023-03-14 15:57:31 INFO  ColorController:36 hello - hello hello filter
+2023-03-14 15:58:49 INFO  webSimpleFilter:31 init - User namenull
+2023-03-14 15:59:18 INFO  webSimpleFilter:31 init - User namenull
+2023-03-14 16:00:19 INFO  webSimpleFilter:31 init - User namenull
+2023-03-14 16:00:33 INFO  webSimpleFilter:39 doFilter - servletReqRequestsorg.apache.catalina.connector.RequestFacade@7530a729
+2023-03-14 16:00:33 INFO  webSimpleFilter:40 doFilter - servletResponseorg.apache.catalina.connector.ResponseFacade@4bdf92b7
+2023-03-14 16:00:33 INFO  webSimpleFilter:41 doFilter - timeTue Mar 14 16:00:33 BDT 2023
+2023-03-14 16:00:33 INFO  ColorController:43 colorCheck - color checkColor check filter
+2023-03-14 16:03:11 INFO  ColorController:43 colorCheck - color checkColor check filter
+2023-03-14 16:03:48 INFO  webSimpleFilter:33 init - User namenull
+2023-03-14 16:03:54 INFO  webSimpleFilter:33 init - User namenull
+2023-03-14 16:04:41 INFO  webSimpleFilter:28 init - User namenull
+2023-03-14 16:07:40 INFO  webSimpleFilter:30 init - User namenull
+2023-03-14 16:07:47 INFO  webSimpleFilter:38 doFilter - servletReqRequestsorg.apache.catalina.connector.RequestFacade@369a72a2
+2023-03-14 16:07:47 INFO  webSimpleFilter:39 doFilter - servletResponseorg.apache.catalina.connector.ResponseFacade@74730978
+2023-03-14 16:07:47 INFO  webSimpleFilter:40 doFilter - timeTue Mar 14 16:07:47 BDT 2023
+2023-03-14 16:07:47 INFO  ColorController:43 colorCheck - color checkColor check filter
+2023-03-14 16:07:49 INFO  webSimpleFilter:38 doFilter - servletReqRequestsorg.apache.catalina.connector.RequestFacade@66cf5346
+2023-03-14 16:07:49 INFO  webSimpleFilter:39 doFilter - servletResponseorg.apache.catalina.connector.ResponseFacade@6808a1ef
+2023-03-14 16:07:49 INFO  webSimpleFilter:40 doFilter - timeTue Mar 14 16:07:49 BDT 2023
+2023-03-14 16:07:49 INFO  ColorController:36 hello - hello hello filter
+2023-03-14 16:08:51 INFO  webSimpleFilter:29 init - User namenull
+2023-03-14 16:12:05 INFO  webSimpleFilter:28 init - User namenull
+2023-03-14 16:14:41 INFO  webSimpleFilter:28 init - User namenull
+2023-03-14 16:37:41 INFO  webSimpleFilter:30 init - User namenull
+2023-03-14 16:49:55 INFO  webSimpleFilter:30 init - User namenull
+2023-03-14 16:53:20 INFO  webSimpleFilter:30 init - User namenull
+2023-03-14 16:53:20 INFO  webSimpleFilter:30 init - User namenull
+2023-03-14 16:54:08 INFO  webSimpleFilter:30 init - User nameb1
+2023-03-14 16:54:08 INFO  webSimpleFilter:30 init - User namenull
+2023-03-14 16:57:34 INFO  ColorController:43 colorCheck - color checkColor check filter
+2023-03-14 16:57:37 INFO  ColorController:36 hello - hello hello filter

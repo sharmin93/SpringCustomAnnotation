@@ -2,13 +2,19 @@ package com.example.custom_validation.controller;
 
 import com.example.custom_validation.groups.ColorGroup;
 import com.example.custom_validation.model.Color;
-import jakarta.validation.Valid;
+
+import lombok.extern.log4j.Log4j;
+import org.apache.log4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 
 @RestController
+@Log4j
 public class ColorController {
+    static Logger logger = Logger.getLogger(ColorController.class);
+
     @PostMapping("/color")
     public Color getColorCode(@Validated(ColorGroup.class) @RequestBody Color color) {
         Color colorObj = new Color();
@@ -25,14 +31,16 @@ public class ColorController {
 
     @GetMapping("/hello")
     public String hello() {
-        String str = "hello filter";
-        System.out.println(" " + str);
-        return str;
+        String strValue = "hello filter";
+        System.out.println(" " + strValue);
+        logger.info("hello " + strValue);
+        return strValue;
     }
 
     @GetMapping("/colorCheck")
     public String colorCheck() {
         String str = "Color check filter";
+        logger.info("color check" + str);
         System.out.println(" " + str);
         return str;
     }

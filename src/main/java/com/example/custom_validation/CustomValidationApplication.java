@@ -2,8 +2,13 @@ package com.example.custom_validation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.ServletComponentScan;
 
+
+
+@ServletComponentScan
 @SpringBootApplication
+
 public class CustomValidationApplication {
 
     public static void main(String[] args) {
